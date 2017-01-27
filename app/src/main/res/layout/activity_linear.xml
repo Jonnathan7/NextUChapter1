@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rdb.jdb.nextu.LinearActivity">
+
+
+    <TextView
+        android:text="@string/android1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:background="#8bc34a"
+        android:layout_weight="1"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="@string/android2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="#727272"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/gn07012016"
+        android:scaleType="centerCrop"
+        android:layout_weight="3"
+        android:id="@+id/imageView3"
+        />
+
+
+
+
+</LinearLayout>

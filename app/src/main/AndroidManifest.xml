@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rdb.jdb.nextu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/mainLabel" />
+        <activity
+            android:name=".JustinActivity"
+            android:label="@string/justinLabel" />
+        <activity
+            android:name=".LinearActivity"
+            android:label="@string/android1" />
+        <activity
+            android:name=".HorizontalLinearActivity"
+            android:label="@string/android2" />
+        <activity
+            android:name=".ContactoActivity"
+            android:label="@string/contactoLabel" />
+        <activity android:name=".ProductoActivity" />
+        <activity android:name=".RelativeActivity" />
+        <activity android:name=".Relative2Activity" />
+        <activity android:name=".LoginActivity" android:label="@string/programado" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".CoffeeActivity"
+            android:label="@string/TituloCoffee" />
+        <activity android:name=".TableActivity" />
+        <activity android:name=".GridActivity" />
+        <activity android:name=".GallleryGridActivity">
+
+        </activity>
+        <activity android:name=".CoffeeGalleryActivity" />
+        <activity android:name=".CalculatorActivity" />
+        <activity android:name=".MixContainers" />
+        <activity android:name=".AnimalesActivity" />
+        <activity android:name=".FacturaActivity" />
+        <activity android:name=".MenuOpcionesActivity" android:label="@string/menu_opciones">
+
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

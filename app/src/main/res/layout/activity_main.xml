@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rdb.jdb.nextu.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/escudo_intro"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conexión WIFI Plugin"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:id="@+id/textview1"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_centerHorizontal="true" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:layout_below="@+id/textview1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="93dp"
+        android:id="@+id/listView1" />
+
+    <Button
+        android:text="@string/android1"
+        android:layout_width="wrap_content"
+        android:layout_margin="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+
+    <Button
+        android:text="@string/android2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:id="@+id/button2" />
+
+
+</FrameLayout>

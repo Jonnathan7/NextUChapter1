@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rdb.jdb.nextu.RelativeActivity">
+
+
+    <TextView
+        android:text="@string/justinLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/textView1" />
+
+    <Button
+        android:text="@string/android1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnApple" />
+
+    <Button
+        android:text="@string/android2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnBanana" />
+
+    <Button
+        android:id="@+id/Cupcake"
+        android:text="@string/android3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnApple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/Donut"
+        android:text="@string/android4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBanana"
+        />
+
+    <Button
+        android:id="@+id/Eclair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android5"
+        android:layout_toRightOf="@+id/btnBanana"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

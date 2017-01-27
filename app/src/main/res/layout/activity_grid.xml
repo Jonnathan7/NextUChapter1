@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:useDefaultMargins="true"
+    tools:context="com.rdb.jdb.nextu.GridActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c11"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/tv11"
+        android:padding="10dp"
+        android:background="@color/color11"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c12"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/tv12"
+        android:padding="10dp"
+        android:background="@color/color12"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c13"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="10dp"
+        android:id="@+id/tv13"
+        android:background="@color/color13"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c21"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="10dp"
+        android:id="@+id/tv21"
+        android:background="@color/color21"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c22"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="10dp"
+        android:id="@+id/tv22"
+        android:background="@color/color22"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c23"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="10dp"
+        android:id="@+id/tv23"
+        android:background="@color/color23"
+        android:textColor="@android:color/white"   />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c31"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="10dp"
+        android:id="@+id/tv31"
+        android:background="@color/color31"
+        android:textColor="@android:color/white"   />
+
+    <TextView
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:text="@string/c32"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="10dp"
+        android:id="@+id/tv32"
+        android:gravity="center"
+        android:background="@color/color32"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:textColor="@android:color/white"   />
+
+
+
+</GridLayout>

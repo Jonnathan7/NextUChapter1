@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    tools:context="com.rdb.jdb.nextu.TableActivity">
+
+    <TableRow android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/c11"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="2dp"
+            android:id="@+id/tv11"
+            android:gravity="center"
+            android:background="@color/color11"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/c12"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="2dp"
+            android:id="@+id/tv12"
+            android:gravity="center"
+            android:background="@color/color12"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/c13"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="2dp"
+            android:id="@+id/tv13"
+            android:gravity="center"
+            android:background="@color/color13"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/c21"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="2dp"
+            android:id="@+id/tv21"
+            android:gravity="center"
+            android:background="@color/color21"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/c22"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="2dp"
+            android:id="@+id/tv22"
+            android:gravity="center"
+            android:background="@color/color22"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/c23"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="2dp"
+            android:id="@+id/tv23"
+            android:gravity="center"
+            android:background="@color/color23"
+            android:textColor="@android:color/white"   />
+    </TableRow>
+
+    <TableRow android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/c31"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="2dp"
+            android:id="@+id/tv31"
+            android:gravity="center"
+            android:background="@color/color31"
+            android:textColor="@android:color/white"   />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/TextoNavegacion"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="2dp"
+            android:id="@+id/tv32"
+            android:gravity="center"
+            android:background="@color/color32"
+            android:layout_span="2"
+            android:textColor="@android:color/white"   />
+
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Sports Gallery</string>
+    <string name="menu_opciones">Menu principal</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="inicio">Iniciar Sesión</string>
+    <string name="TituloCoffee">Coffee Tutor</string>
+
+    <string name="programado">Arquitectura</string>
+
+    <string name="futbol">Futbol</string>
+    <string name="baloncesto">Baloncesto</string>
+    <string name="voleibol">Voleibol</string>
+    <string name="tenis">Tenis</string>
+
+    <string name="salir">Salir</string>
+    <string name="contactanos">Contáctanos</string>
+    <string name="cadena">Bienvenido a la Certificación de Android</string>
+
+    <string name="nLeon">Nombre: León</string>
+    <string name="eLeon">Especie: Felino</string>
+    <string name="nPato">Nombre: Pato Esmeralda</string>
+    <string name="ePato">Especie: Ave</string>
+    <string name="nPez">Nombre: Pez Payaso</string>
+    <string name="ePez">Especie: Pez</string>
+
+    <string name="singer">Selena Gomez</string>
+    <string name="mainLabel">Bayern Munich Main</string>
+    <string name="justinLabel">Justin United</string>
+    <string name="android1">Apple Pie</string>
+    <string name="android2">Banana Bread</string>
+    <string name="android3">Cupcake</string>
+    <string name="android4">Donut</string>
+    <string name="android5">Eclair</string>
+    <string name="contactoLabel">Contacto</string>
+    <string name="nombre">Nombre</string>
+    <string name="numero">Número</string>
+    <string name="add">Agregar Contacto</string>
+    <string name="hour1">12:00</string>
+    <string name="dia1">26 de Julio, Viernes, Bógota.</string>
+    <string name="hour2">México D.F ------------------- 23:00</string>
+    <string name="hour3">Santiago ----------------------- 23:00</string>
+    <string name="hour4">Montevideo ------------------- 23:00</string>
+    <string name="codigo">Codigo</string>
+    <string name="hint_codigo">0000</string>
+    <string name="nombre_del_producto">Nombre del producto</string>
+    <string name="hint_nombre">PC portatil</string>
+    <string name="descripcion">Descripción</string>
+    <string name="hint_descripcion">Intel I5 - RAM 6GB - 1TB</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="Peso">Peso (Kgr)</string>
+    <string name="bienvenido">Bienvenidos</string>
+    <string name="tutorcafe">Tutor Cafe</string>
+    <string name="sesion1">1. Sesion 1.</string>
+    <string name="sesion2">2. Sesion 2.</string>
+    <string name="sesion3">3. Sesion 3.</string>
+    <string name="hora1">10:00 am.</string>
+    <string name="hora2">4:00 pm.</string>
+    <string name="hora3">7:00 pm.</string>
+
+    <string name="c11">Celda 1-1</string>
+    <string name="c12">Celda 1-2</string>
+    <string name="c13">Celda 1-3</string>
+    <string name="c21">Celda 2-1</string>
+    <string name="c22">Celda 2-2</string>
+    <string name="c23">Celda 2-3</string>
+    <string name="c31">Celda 3-1</string>
+    <string name="c32">Celda 3-2</string>
+    <string name="c33">Celda 3-3</string>
+
+    <string name="producto">Producto</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="unidad">Valor Unidad</string>
+    <string name="auriculares">Auriculares</string>
+    <string name="celular">Celular</string>
+    <string name="cargador">Cargador</string>
+    <string name="protector">Protector</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="impuestos">Impuestos</string>
+    <string name="descuentos">Descuentos</string>
+    <string name="total">Total</string>
+    <string name="pagar">Pagar</string>
+    <string name="btnNavegarTexto">Navegar</string>
+    <string name="TextoNavegacion">Segunda Actividad</string>
+</resources>
